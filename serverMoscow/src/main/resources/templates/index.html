@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>SERVER MOSCOW</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+    <style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+
+  text-align: center;
+  color: #685f6d;
+
+  position: relative;
+  margin: auto;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.btn {
+  width:150px;
+  height:36px;
+  background-color:#685f6d;
+  color:white;
+  font-size:13px;
+}
+
+</style>
+</head>
+<body>
+<form method = "post">
+
+    <div class="card" >
+           <h1>ENTER YOUR MESSAGE:</h1>
+           <input style="width:400px;height:30px" type = "text" name = "data"></input>
+           <button class="btn" type = "submit">SUBMIT</button>
+           <p>Server Moscow</p>
+    </div>
+</form>
+</body>
+</html>

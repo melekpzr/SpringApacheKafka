@@ -1,0 +1,25 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.btn {
+  border-radius: 3px;
+  background-color: rgb(143, 35, 94);
+  color: rgb(245, 159, 48);
+  font-size: 14px;
+}
+

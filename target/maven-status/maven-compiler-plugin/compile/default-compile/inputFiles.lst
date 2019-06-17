@@ -1,0 +1,11 @@
+/Users/hidrofob/IntelliJIDEA_workspace/SpringApacheKafka/src/main/java/com/javasampleapproach/apachekafka/controller/HomeController.java
+/Users/hidrofob/IntelliJIDEA_workspace/SpringApacheKafka/src/main/java/com/javasampleapproach/apachekafka/config/KafkaConsumerConfig.java
+/Users/hidrofob/IntelliJIDEA_workspace/SpringApacheKafka/src/main/java/com/javasampleapproach/apachekafka/model/Message.java
+/Users/hidrofob/IntelliJIDEA_workspace/SpringApacheKafka/src/main/java/com/javasampleapproach/apachekafka/services/KafkaConsumer.java
+/Users/hidrofob/IntelliJIDEA_workspace/SpringApacheKafka/src/main/java/com/javasampleapproach/apachekafka/SpringApacheKafkaApplication.java
+/Users/hidrofob/IntelliJIDEA_workspace/SpringApacheKafka/src/main/java/com/javasampleapproach/apachekafka/model/Messagedb.java
+/Users/hidrofob/IntelliJIDEA_workspace/SpringApacheKafka/src/main/java/com/javasampleapproach/apachekafka/controller/WebRestController.java
+/Users/hidrofob/IntelliJIDEA_workspace/SpringApacheKafka/src/main/java/com/javasampleapproach/apachekafka/services/KafkaProducer.java
+/Users/hidrofob/IntelliJIDEA_workspace/SpringApacheKafka/src/main/java/com/javasampleapproach/apachekafka/storage/MessageStorage.java
+/Users/hidrofob/IntelliJIDEA_workspace/SpringApacheKafka/src/main/java/com/javasampleapproach/apachekafka/repository/MessageRepository.java
+/Users/hidrofob/IntelliJIDEA_workspace/SpringApacheKafka/src/main/java/com/javasampleapproach/apachekafka/config/KafkaProducerConfig.java
