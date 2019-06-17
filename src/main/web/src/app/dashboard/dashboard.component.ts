@@ -18,11 +18,11 @@ export class DashboardComponent implements OnInit{
 
   title = 'dashboard';
   chart = [];
-  istanbulPoints = []; 
-  moscowPoints = [];
-  tokyoPoints = [];
-  beijingPoints = [];
-  londonPoints = [];
+  istanbulPoints = [0]; 
+  moscowPoints = [0];
+  tokyoPoints = [0];
+  beijingPoints = [0];
+  londonPoints = [0];
   messages: Messagedb[];
 
   istanbulCounter: number;
