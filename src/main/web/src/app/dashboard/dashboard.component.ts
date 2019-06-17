@@ -1,10 +1,12 @@
-import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, Input } from '@angular/core';
 import { Messagedb } from './messagedb';
 import { DashboardService } from './dashboard.service';
-import { DatePipe } from '@angular/common';
-import * as CanvasJS from '../../assets/canvasjs.min.js';
-import * as Plotly from 'plotly.js';
+//import * as CanvasJS from '../../assets/canvasjs.min.js';
+//import * as Plotly from 'plotly.js';
+import { Observable } from 'rxjs/internal/Observable';
 //import {Config, Data, Layout} from 'plotly.js';
+import  {Chart} from 'chart.js';
+import { DatePipe } from '@angular/common';
 
 @Component({
   selector: 'app-dashboard',
@@ -14,21 +16,36 @@ import * as Plotly from 'plotly.js';
 })
 export class DashboardComponent implements OnInit{
 
+  title = 'dashboard';
+  chart = [];
+  istanbulPoints = []; 
+  moscowPoints = [];
+  tokyoPoints = [];
+  beijingPoints = [];
+  londonPoints = [];
   messages: Messagedb[];
+
   istanbulCounter: number;
   tokyoCounter: number;
   moscowCounter: number;
   beijingCounter: number;
   londonCounter: number;
 
-  date= Date();
-  constructor(private dashboardService: DashboardService, private datePipe: DatePipe){
-    this.date = this.datePipe.transform(this.date, 'h:mm');
+  myDate = new Date();
+  date:string;
+  dates = []
+  
+  constructor(private dashboardService: DashboardService, private datePipe: DatePipe){ 
+    this.date = this.datePipe.transform(this.myDate, 'h:mm');
+    this.dates.push(this.date);
   }
-	ngOnInit() {
-   this.dashboardService.getDashboardMessage().subscribe(data=>{
+
+	ngOnInit() { 
+    this.dashboardService.getDashboardMessage().subscribe(data=>{
      this.messages = data;
+
      console.log(data);
+     console.log(this.date);
 
      this.istanbulCounter=0;
      this.tokyoCounter=0;
@@ -37,8 +54,8 @@ export class DashboardComponent implements OnInit{
      this.londonCounter=0;
 
      data.forEach(x => {
-      var city = x.cityName; 
-      
+     var city = x.cityName; 
+
       switch(city){
         case "Istanbul":{
          this.istanbulCounter++;
@@ -68,41 +85,63 @@ export class DashboardComponent implements OnInit{
     console.log(this.moscowCounter);
     console.log(this.beijingCounter);
     console.log(this.londonCounter);
-    console.log(this.date);
 
-  ////ISTANBUL
-    let dataPoints = [];
-    let dpsLength = 0;
-    let dPoint = this.istanbulCounter;
-    var i=0;
+    this.istanbulPoints.push(this.istanbulCounter);
+    this.moscowPoints.push(this.moscowCounter);
+    this.tokyoPoints.push(this.tokyoCounter);
+    this.beijingPoints.push(this.beijingCounter);
+    this.londonPoints.push(this.londonCounter);
 
-    let chart = new CanvasJS.Chart("chartContainer",{
-      exportEnabled: true,
-      title:{
-        text:"This dashboard shows us how many logs are coming from İSTANBUL"
-      },
-      data: [{
-        type: "spline",
-        dataPoints : dataPoints
-      }]
-    });
+    console.log("İstanbul Points:" + this.istanbulPoints);
+    console.log("Tokyo Points:" + this.tokyoPoints);
+    console.log("Moscow Points:" + this.moscowPoints);
+    console.log("Beijing Points:" + this.beijingPoints);
+    console.log("London Points:" + this.londonPoints);
 
-      dataPoints.push({x: i, y: dPoint});
-      dpsLength = dataPoints.length;
-      chart.render();
-      updateChart(); 
-        
-    function updateChart(){
-          //window.location.reload();
-          dataPoints.push({x: i, y: dPoint});
-          i++;
-          dpsLength++;
-          if (dataPoints.length >  20) {
-            dataPoints.shift();			
+
+    this.chart = new Chart('canvas',{
+      type: 'line',
+      data:{
+        labels:['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
+        datasets:[
+          {
+            label: 'İSTANBUL',
+            data: this.istanbulPoints,
+            backgroundColor:'red',
+            borderColor:'red',
+            fill:false,
+          },
+          {
+            label: 'TOKYO',
+            data: this.tokyoPoints,
+            backgroundColor:'blue',
+            borderColor:'blue',
+            fill:false,
+          },
+          {
+            label: 'MOSCOW',
+            data: this.moscowPoints,
+            backgroundColor:'pink',
+            borderColor:'pink',
+            fill:false,
+          },
+          {
+            label: 'BEIJING',
+            data: this.beijingPoints,
+            backgroundColor:'green',
+            borderColor:'green',
+            fill:false,
+          },
+          {
+            label: 'LONDON',
+            data: this.londonPoints,
+            backgroundColor:'yellow',
+            borderColor:'yellow',
+            fill:false,
           }
-      chart.render();
-      setTimeout(function(){updateChart()}, 5000);
-    }
+        ]
+      }
+    })
    });
   }    
 
