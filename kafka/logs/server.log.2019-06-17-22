@@ -1,0 +1,1601 @@
+[2019-06-17 22:47:05,890] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2019-06-17 22:47:05,893] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2019-06-17 22:47:05,895] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2019-06-17 22:47:05,895] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2019-06-17 22:47:05,895] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2019-06-17 22:47:05,914] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2019-06-17 22:47:05,914] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2019-06-17 22:47:05,957] INFO Server environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:05,957] INFO Server environment:host.name=192.168.1.102 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:05,957] INFO Server environment:java.version=1.8.0_201 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:05,957] INFO Server environment:java.vendor=Oracle Corporation (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:05,957] INFO Server environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:05,957] INFO Server environment:java.class.path=/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/activation-1.1.1.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/aopalliance-repackaged-2.5.0-b42.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/argparse4j-0.7.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/audience-annotations-0.5.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/commons-lang3-3.8.1.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/connect-api-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/connect-basic-auth-extension-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/connect-file-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/connect-json-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/connect-runtime-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/connect-transforms-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/guava-20.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/hk2-api-2.5.0-b42.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/hk2-locator-2.5.0-b42.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/hk2-utils-2.5.0-b42.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jackson-annotations-2.9.8.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jackson-core-2.9.8.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jackson-databind-2.9.8.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jackson-datatype-jdk8-2.9.8.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jackson-jaxrs-base-2.9.8.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jackson-jaxrs-json-provider-2.9.8.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jackson-module-jaxb-annotations-2.9.8.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/javassist-3.22.0-CR2.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/javax.annotation-api-1.2.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/javax.inject-1.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/javax.inject-2.5.0-b42.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/javax.servlet-api-3.1.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/javax.ws.rs-api-2.1.1.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/javax.ws.rs-api-2.1.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jaxb-api-2.3.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jersey-client-2.27.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jersey-common-2.27.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jersey-container-servlet-2.27.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jersey-container-servlet-core-2.27.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jersey-hk2-2.27.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jersey-media-jaxb-2.27.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jersey-server-2.27.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-client-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-continuation-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-http-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-io-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-security-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-server-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-servlet-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-servlets-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-util-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jopt-simple-5.0.4.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka-clients-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka-log4j-appender-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka-streams-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka-streams-examples-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka-streams-scala_2.11-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka-streams-test-utils-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka-tools-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka_2.11-2.2.0-sources.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka_2.11-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/log4j-1.2.17.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/lz4-java-1.5.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/maven-artifact-3.6.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/metrics-core-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/osgi-resource-locator-1.0.1.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/plexus-utils-3.1.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/reflections-0.9.11.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/rocksdbjni-5.15.10.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/scala-library-2.11.12.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/scala-logging_2.11-3.9.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/scala-reflect-2.11.12.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/slf4j-api-1.7.25.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/slf4j-log4j12-1.7.25.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/snappy-java-1.1.7.2.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/validation-api-1.1.0.Final.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/zkclient-0.11.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/zookeeper-3.4.13.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/zstd-jni-1.3.8-1.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:05,959] INFO Server environment:java.library.path=/Users/hidrofob/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:. (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:05,959] INFO Server environment:java.io.tmpdir=/var/folders/wh/_7v_hl156k7c90r_d059nysr0000gn/T/ (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:05,959] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:05,959] INFO Server environment:os.name=Mac OS X (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:05,959] INFO Server environment:os.arch=x86_64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:05,960] INFO Server environment:os.version=10.14.5 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:05,960] INFO Server environment:user.name=hidrofob (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:05,960] INFO Server environment:user.home=/Users/hidrofob (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:05,960] INFO Server environment:user.dir=/Users/hidrofob/GitHub/SpringApacheKafka/kafka (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:05,972] INFO tickTime set to 3000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:05,973] INFO minSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:05,973] INFO maxSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:05,988] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2019-06-17 22:47:06,004] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:06,151] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61399 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:06,160] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61399 as it has seen zxid 0x5a our last zxid is 0x18 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:06,161] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61399 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:07,311] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61400 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:07,312] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61400 as it has seen zxid 0x5a our last zxid is 0x18 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:07,312] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61400 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:09,146] INFO Accepted socket connection from /127.0.0.1:61401 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:09,147] INFO Refusing session request for client /127.0.0.1:61401 as it has seen zxid 0x5a our last zxid is 0x18 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:09,147] INFO Closed socket connection for client /127.0.0.1:61401 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:10,709] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61402 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:10,710] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61402 as it has seen zxid 0x5a our last zxid is 0x18 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:10,710] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61402 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:11,936] INFO Accepted socket connection from /127.0.0.1:61403 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:11,936] INFO Refusing session request for client /127.0.0.1:61403 as it has seen zxid 0x5a our last zxid is 0x18 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:11,937] INFO Closed socket connection for client /127.0.0.1:61403 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:13,665] INFO Accepted socket connection from /127.0.0.1:61404 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:13,665] INFO Refusing session request for client /127.0.0.1:61404 as it has seen zxid 0x5a our last zxid is 0x18 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:13,665] INFO Closed socket connection for client /127.0.0.1:61404 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:15,183] INFO Accepted socket connection from /127.0.0.1:61405 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:15,184] INFO Refusing session request for client /127.0.0.1:61405 as it has seen zxid 0x5a our last zxid is 0x18 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:15,184] INFO Closed socket connection for client /127.0.0.1:61405 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:17,120] INFO Accepted socket connection from /127.0.0.1:61406 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:17,121] INFO Refusing session request for client /127.0.0.1:61406 as it has seen zxid 0x5a our last zxid is 0x18 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:17,121] INFO Closed socket connection for client /127.0.0.1:61406 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:18,524] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61407 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:18,525] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61407 as it has seen zxid 0x5a our last zxid is 0x18 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:18,525] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61407 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:20,357] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61408 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:20,358] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61408 as it has seen zxid 0x5a our last zxid is 0x18 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:20,358] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61408 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:22,438] INFO Accepted socket connection from /127.0.0.1:61409 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:22,439] INFO Refusing session request for client /127.0.0.1:61409 as it has seen zxid 0x5a our last zxid is 0x18 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:22,439] INFO Closed socket connection for client /127.0.0.1:61409 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:24,207] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61410 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:24,207] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61410 as it has seen zxid 0x5a our last zxid is 0x18 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:24,207] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61410 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:25,883] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61411 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:25,883] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61411 as it has seen zxid 0x5a our last zxid is 0x18 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:25,884] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61411 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:27,680] INFO Accepted socket connection from /127.0.0.1:61412 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:27,681] INFO Refusing session request for client /127.0.0.1:61412 as it has seen zxid 0x5a our last zxid is 0x18 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:27,681] INFO Closed socket connection for client /127.0.0.1:61412 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:29,549] INFO Accepted socket connection from /127.0.0.1:61415 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:29,549] INFO Refusing session request for client /127.0.0.1:61415 as it has seen zxid 0x5a our last zxid is 0x18 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:29,550] INFO Closed socket connection for client /127.0.0.1:61415 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:30,996] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61416 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:30,997] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61416 as it has seen zxid 0x5a our last zxid is 0x18 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:30,997] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61416 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:32,549] INFO Accepted socket connection from /127.0.0.1:61417 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:32,550] INFO Refusing session request for client /127.0.0.1:61417 as it has seen zxid 0x5a our last zxid is 0x18 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:32,550] INFO Closed socket connection for client /127.0.0.1:61417 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:34,285] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61418 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:34,286] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61418 as it has seen zxid 0x5a our last zxid is 0x18 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:34,286] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61418 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:34,945] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2019-06-17 22:47:35,468] INFO starting (kafka.server.KafkaServer)
+[2019-06-17 22:47:35,469] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2019-06-17 22:47:35,495] INFO [ZooKeeperClient] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2019-06-17 22:47:35,503] INFO Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:47:35,504] INFO Client environment:host.name=192.168.1.102 (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:47:35,504] INFO Client environment:java.version=1.8.0_201 (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:47:35,504] INFO Client environment:java.vendor=Oracle Corporation (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:47:35,504] INFO Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:47:35,504] INFO Client environment:java.class.path=/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/activation-1.1.1.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/aopalliance-repackaged-2.5.0-b42.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/argparse4j-0.7.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/audience-annotations-0.5.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/commons-lang3-3.8.1.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/connect-api-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/connect-basic-auth-extension-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/connect-file-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/connect-json-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/connect-runtime-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/connect-transforms-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/guava-20.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/hk2-api-2.5.0-b42.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/hk2-locator-2.5.0-b42.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/hk2-utils-2.5.0-b42.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jackson-annotations-2.9.8.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jackson-core-2.9.8.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jackson-databind-2.9.8.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jackson-datatype-jdk8-2.9.8.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jackson-jaxrs-base-2.9.8.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jackson-jaxrs-json-provider-2.9.8.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jackson-module-jaxb-annotations-2.9.8.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/javassist-3.22.0-CR2.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/javax.annotation-api-1.2.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/javax.inject-1.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/javax.inject-2.5.0-b42.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/javax.servlet-api-3.1.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/javax.ws.rs-api-2.1.1.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/javax.ws.rs-api-2.1.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jaxb-api-2.3.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jersey-client-2.27.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jersey-common-2.27.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jersey-container-servlet-2.27.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jersey-container-servlet-core-2.27.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jersey-hk2-2.27.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jersey-media-jaxb-2.27.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jersey-server-2.27.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-client-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-continuation-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-http-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-io-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-security-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-server-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-servlet-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-servlets-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-util-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jopt-simple-5.0.4.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka-clients-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka-log4j-appender-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka-streams-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka-streams-examples-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka-streams-scala_2.11-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka-streams-test-utils-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka-tools-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka_2.11-2.2.0-sources.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka_2.11-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/log4j-1.2.17.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/lz4-java-1.5.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/maven-artifact-3.6.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/metrics-core-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/osgi-resource-locator-1.0.1.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/plexus-utils-3.1.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/reflections-0.9.11.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/rocksdbjni-5.15.10.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/scala-library-2.11.12.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/scala-logging_2.11-3.9.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/scala-reflect-2.11.12.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/slf4j-api-1.7.25.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/slf4j-log4j12-1.7.25.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/snappy-java-1.1.7.2.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/validation-api-1.1.0.Final.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/zkclient-0.11.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/zookeeper-3.4.13.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/zstd-jni-1.3.8-1.jar (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:47:35,505] INFO Client environment:java.library.path=/Users/hidrofob/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:. (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:47:35,505] INFO Client environment:java.io.tmpdir=/var/folders/wh/_7v_hl156k7c90r_d059nysr0000gn/T/ (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:47:35,505] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:47:35,505] INFO Client environment:os.name=Mac OS X (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:47:35,505] INFO Client environment:os.arch=x86_64 (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:47:35,505] INFO Client environment:os.version=10.14.5 (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:47:35,505] INFO Client environment:user.name=hidrofob (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:47:35,506] INFO Client environment:user.home=/Users/hidrofob (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:47:35,506] INFO Client environment:user.dir=/Users/hidrofob/GitHub/SpringApacheKafka/kafka (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:47:35,507] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@747ddf94 (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:47:35,522] INFO [ZooKeeperClient] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-06-17 22:47:35,523] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-06-17 22:47:35,537] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61420 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:35,540] INFO Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-06-17 22:47:35,542] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:61420 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:35,543] INFO Creating new log file: log.19 (org.apache.zookeeper.server.persistence.FileTxnLog)
+[2019-06-17 22:47:35,550] INFO Established session 0x100011c29360000 with negotiated timeout 6000 for client /0:0:0:0:0:0:0:1:61420 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:35,552] INFO Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x100011c29360000, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2019-06-17 22:47:35,555] INFO [ZooKeeperClient] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-06-17 22:47:35,614] INFO Got user-level KeeperException when processing sessionid:0x100011c29360000 type:create cxid:0x1 zxid:0x1a txntype:-1 reqpath:n/a Error Path:/consumers Error:KeeperErrorCode = NodeExists for /consumers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:47:35,627] INFO Got user-level KeeperException when processing sessionid:0x100011c29360000 type:create cxid:0x2 zxid:0x1b txntype:-1 reqpath:n/a Error Path:/brokers/ids Error:KeeperErrorCode = NodeExists for /brokers/ids (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:47:35,628] INFO Got user-level KeeperException when processing sessionid:0x100011c29360000 type:create cxid:0x3 zxid:0x1c txntype:-1 reqpath:n/a Error Path:/brokers/topics Error:KeeperErrorCode = NodeExists for /brokers/topics (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:47:35,629] INFO Got user-level KeeperException when processing sessionid:0x100011c29360000 type:create cxid:0x4 zxid:0x1d txntype:-1 reqpath:n/a Error Path:/config/changes Error:KeeperErrorCode = NodeExists for /config/changes (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:47:35,631] INFO Got user-level KeeperException when processing sessionid:0x100011c29360000 type:create cxid:0x5 zxid:0x1e txntype:-1 reqpath:n/a Error Path:/admin/delete_topics Error:KeeperErrorCode = NodeExists for /admin/delete_topics (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:47:35,632] INFO Got user-level KeeperException when processing sessionid:0x100011c29360000 type:create cxid:0x6 zxid:0x1f txntype:-1 reqpath:n/a Error Path:/brokers/seqid Error:KeeperErrorCode = NodeExists for /brokers/seqid (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:47:35,633] INFO Got user-level KeeperException when processing sessionid:0x100011c29360000 type:create cxid:0x7 zxid:0x20 txntype:-1 reqpath:n/a Error Path:/isr_change_notification Error:KeeperErrorCode = NodeExists for /isr_change_notification (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:47:35,635] INFO Got user-level KeeperException when processing sessionid:0x100011c29360000 type:create cxid:0x8 zxid:0x21 txntype:-1 reqpath:n/a Error Path:/latest_producer_id_block Error:KeeperErrorCode = NodeExists for /latest_producer_id_block (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:47:35,636] INFO Got user-level KeeperException when processing sessionid:0x100011c29360000 type:create cxid:0x9 zxid:0x22 txntype:-1 reqpath:n/a Error Path:/log_dir_event_notification Error:KeeperErrorCode = NodeExists for /log_dir_event_notification (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:47:35,637] INFO Got user-level KeeperException when processing sessionid:0x100011c29360000 type:create cxid:0xa zxid:0x23 txntype:-1 reqpath:n/a Error Path:/config/topics Error:KeeperErrorCode = NodeExists for /config/topics (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:47:35,638] INFO Got user-level KeeperException when processing sessionid:0x100011c29360000 type:create cxid:0xb zxid:0x24 txntype:-1 reqpath:n/a Error Path:/config/clients Error:KeeperErrorCode = NodeExists for /config/clients (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:47:35,640] INFO Got user-level KeeperException when processing sessionid:0x100011c29360000 type:create cxid:0xc zxid:0x25 txntype:-1 reqpath:n/a Error Path:/config/users Error:KeeperErrorCode = NodeExists for /config/users (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:47:35,641] INFO Got user-level KeeperException when processing sessionid:0x100011c29360000 type:create cxid:0xd zxid:0x26 txntype:-1 reqpath:n/a Error Path:/config/brokers Error:KeeperErrorCode = NodeExists for /config/brokers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:47:35,907] INFO Cluster ID = afK9rte8RZmAuQZMFgINzg (kafka.server.KafkaServer)
+[2019-06-17 22:47:35,982] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.2-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.2-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = [DEFAULT]
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2019-06-17 22:47:35,990] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.2-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.2-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = [DEFAULT]
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2019-06-17 22:47:36,021] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:47:36,021] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:47:36,022] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:47:36,064] ERROR [KafkaServer id=0] Fatal error during KafkaServer startup. Prepare to shutdown (kafka.server.KafkaServer)
+org.apache.kafka.common.KafkaException: Failed to acquire lock on file .lock in /tmp/kafka-logs. A Kafka instance in another process or thread is using this directory.
+	at kafka.log.LogManager$$anonfun$lockLogDirs$1.apply(LogManager.scala:240)
+	at kafka.log.LogManager$$anonfun$lockLogDirs$1.apply(LogManager.scala:236)
+	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:241)
+	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:241)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at scala.collection.TraversableLike$class.flatMap(TraversableLike.scala:241)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at kafka.log.LogManager.lockLogDirs(LogManager.scala:236)
+	at kafka.log.LogManager.<init>(LogManager.scala:97)
+	at kafka.log.LogManager$.apply(LogManager.scala:1004)
+	at kafka.server.KafkaServer.startup(KafkaServer.scala:240)
+	at kafka.server.KafkaServerStartable.startup(KafkaServerStartable.scala:38)
+	at kafka.Kafka$.main(Kafka.scala:75)
+	at kafka.Kafka.main(Kafka.scala)
+[2019-06-17 22:47:36,067] INFO [KafkaServer id=0] shutting down (kafka.server.KafkaServer)
+[2019-06-17 22:47:36,072] INFO [ZooKeeperClient] Closing. (kafka.zookeeper.ZooKeeperClient)
+[2019-06-17 22:47:36,073] INFO Processed session termination for sessionid: 0x100011c29360000 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:47:36,075] INFO Session: 0x100011c29360000 closed (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:47:36,076] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61420 which had sessionid 0x100011c29360000 (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:36,077] INFO EventThread shut down for session: 0x100011c29360000 (org.apache.zookeeper.ClientCnxn)
+[2019-06-17 22:47:36,077] INFO [ZooKeeperClient] Closed. (kafka.zookeeper.ZooKeeperClient)
+[2019-06-17 22:47:36,078] INFO [ThrottledChannelReaper-Fetch]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:47:36,326] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61421 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:36,327] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61421 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:36,327] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61421 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:37,022] INFO [ThrottledChannelReaper-Fetch]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:47:37,022] INFO [ThrottledChannelReaper-Fetch]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:47:37,022] INFO [ThrottledChannelReaper-Produce]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:47:38,022] INFO [ThrottledChannelReaper-Produce]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:47:38,022] INFO [ThrottledChannelReaper-Produce]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:47:38,022] INFO [ThrottledChannelReaper-Request]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:47:38,028] INFO [ThrottledChannelReaper-Request]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:47:38,028] INFO [ThrottledChannelReaper-Request]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:47:38,037] INFO [KafkaServer id=0] shut down completed (kafka.server.KafkaServer)
+[2019-06-17 22:47:38,038] ERROR Exiting Kafka. (kafka.server.KafkaServerStartable)
+[2019-06-17 22:47:38,040] INFO [KafkaServer id=0] shutting down (kafka.server.KafkaServer)
+[2019-06-17 22:47:38,151] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61422 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:38,152] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61422 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:38,152] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61422 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:39,898] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61423 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:39,898] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61423 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:39,898] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61423 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:41,673] INFO Accepted socket connection from /127.0.0.1:61424 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:41,674] INFO Refusing session request for client /127.0.0.1:61424 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:41,674] INFO Closed socket connection for client /127.0.0.1:61424 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:43,728] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61425 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:43,729] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61425 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:43,729] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61425 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:45,724] INFO Accepted socket connection from /127.0.0.1:61426 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:45,725] INFO Refusing session request for client /127.0.0.1:61426 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:45,725] INFO Closed socket connection for client /127.0.0.1:61426 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:47,251] INFO Accepted socket connection from /127.0.0.1:61427 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:47,252] INFO Refusing session request for client /127.0.0.1:61427 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:47,252] INFO Closed socket connection for client /127.0.0.1:61427 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:49,265] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61429 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:49,265] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61429 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:49,265] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61429 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:51,364] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61430 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:51,365] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61430 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:51,365] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61430 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:52,912] INFO Accepted socket connection from /127.0.0.1:61431 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:52,912] INFO Refusing session request for client /127.0.0.1:61431 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:52,913] INFO Closed socket connection for client /127.0.0.1:61431 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:54,714] INFO Accepted socket connection from /127.0.0.1:61433 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:54,714] INFO Refusing session request for client /127.0.0.1:61433 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:54,715] INFO Closed socket connection for client /127.0.0.1:61433 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:56,623] INFO Accepted socket connection from /127.0.0.1:61434 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:56,623] INFO Refusing session request for client /127.0.0.1:61434 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:56,623] INFO Closed socket connection for client /127.0.0.1:61434 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:58,156] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61435 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:58,157] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61435 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:58,157] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61435 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:47:59,322] INFO Accepted socket connection from /127.0.0.1:61436 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:47:59,323] INFO Refusing session request for client /127.0.0.1:61436 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:47:59,323] INFO Closed socket connection for client /127.0.0.1:61436 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:00,588] INFO Accepted socket connection from /127.0.0.1:61437 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:00,589] INFO Refusing session request for client /127.0.0.1:61437 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:00,589] INFO Closed socket connection for client /127.0.0.1:61437 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:01,902] INFO Accepted socket connection from /127.0.0.1:61438 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:01,903] INFO Refusing session request for client /127.0.0.1:61438 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:01,903] INFO Closed socket connection for client /127.0.0.1:61438 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:03,747] INFO Accepted socket connection from /127.0.0.1:61439 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:03,747] INFO Refusing session request for client /127.0.0.1:61439 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:03,747] INFO Closed socket connection for client /127.0.0.1:61439 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:04,939] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61440 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:04,940] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61440 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:04,940] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61440 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:06,656] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61441 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:06,657] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61441 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:06,657] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61441 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:08,530] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61442 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:08,530] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61442 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:08,530] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61442 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:09,733] INFO Accepted socket connection from /127.0.0.1:61443 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:09,734] INFO Refusing session request for client /127.0.0.1:61443 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:09,734] INFO Closed socket connection for client /127.0.0.1:61443 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:11,785] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61444 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:11,785] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61444 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:11,785] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61444 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:13,532] INFO Accepted socket connection from /127.0.0.1:61445 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:13,532] INFO Refusing session request for client /127.0.0.1:61445 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:13,532] INFO Closed socket connection for client /127.0.0.1:61445 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:14,889] INFO Accepted socket connection from /127.0.0.1:61446 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:14,889] INFO Refusing session request for client /127.0.0.1:61446 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:14,889] INFO Closed socket connection for client /127.0.0.1:61446 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:16,097] INFO Accepted socket connection from /127.0.0.1:61447 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:16,098] INFO Refusing session request for client /127.0.0.1:61447 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:16,099] INFO Closed socket connection for client /127.0.0.1:61447 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:17,993] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61448 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:17,994] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61448 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:17,994] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61448 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:19,322] INFO Accepted socket connection from /127.0.0.1:61449 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:19,323] INFO Refusing session request for client /127.0.0.1:61449 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:19,323] INFO Closed socket connection for client /127.0.0.1:61449 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:21,260] INFO Accepted socket connection from /127.0.0.1:61450 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:21,261] INFO Refusing session request for client /127.0.0.1:61450 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:21,261] INFO Closed socket connection for client /127.0.0.1:61450 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:22,735] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61451 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:22,736] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61451 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:22,736] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61451 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:24,566] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61452 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:24,566] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61452 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:24,566] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61452 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:26,382] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61453 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:26,383] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61453 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:26,383] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61453 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:28,497] INFO Accepted socket connection from /127.0.0.1:61454 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:28,498] INFO Refusing session request for client /127.0.0.1:61454 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:28,498] INFO Closed socket connection for client /127.0.0.1:61454 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:30,273] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61455 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:30,273] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61455 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:30,273] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61455 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:32,110] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61457 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:32,111] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61457 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:32,111] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61457 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:33,291] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61458 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:33,291] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61458 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:33,291] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61458 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:35,383] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61459 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:35,384] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61459 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:35,384] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61459 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:36,554] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61460 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:36,581] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61460 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:36,581] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61460 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:38,146] INFO Accepted socket connection from /127.0.0.1:61461 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:38,146] INFO Refusing session request for client /127.0.0.1:61461 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:38,146] INFO Closed socket connection for client /127.0.0.1:61461 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:40,178] INFO Accepted socket connection from /127.0.0.1:61462 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:40,179] INFO Refusing session request for client /127.0.0.1:61462 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:40,179] INFO Closed socket connection for client /127.0.0.1:61462 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:41,564] INFO Accepted socket connection from /127.0.0.1:61463 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:41,564] INFO Refusing session request for client /127.0.0.1:61463 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:41,564] INFO Closed socket connection for client /127.0.0.1:61463 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:43,591] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61466 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:43,591] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61466 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:43,591] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61466 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:45,431] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61467 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:45,432] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61467 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:45,432] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61467 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:47,264] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61468 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:47,265] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61468 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:47,265] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61468 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:48,699] INFO Accepted socket connection from /127.0.0.1:61471 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:48,700] INFO Refusing session request for client /127.0.0.1:61471 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:48,700] INFO Closed socket connection for client /127.0.0.1:61471 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:50,614] INFO Accepted socket connection from /127.0.0.1:61472 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:50,615] INFO Refusing session request for client /127.0.0.1:61472 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:50,615] INFO Closed socket connection for client /127.0.0.1:61472 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:51,977] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61473 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:51,978] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61473 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:51,978] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61473 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:53,261] INFO Accepted socket connection from /127.0.0.1:61474 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:53,261] INFO Refusing session request for client /127.0.0.1:61474 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:53,261] INFO Closed socket connection for client /127.0.0.1:61474 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:54,613] INFO Accepted socket connection from /127.0.0.1:61476 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:54,613] INFO Refusing session request for client /127.0.0.1:61476 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:54,614] INFO Closed socket connection for client /127.0.0.1:61476 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:56,264] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61477 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:56,265] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61477 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:56,265] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61477 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:57,753] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61478 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:57,753] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61478 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:57,754] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61478 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:48:59,103] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61479 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:48:59,103] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61479 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:48:59,103] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61479 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:00,912] INFO Accepted socket connection from /127.0.0.1:61480 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:00,913] INFO Refusing session request for client /127.0.0.1:61480 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:00,913] INFO Closed socket connection for client /127.0.0.1:61480 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:02,754] INFO Accepted socket connection from /127.0.0.1:61486 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:02,755] INFO Refusing session request for client /127.0.0.1:61486 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:02,755] INFO Closed socket connection for client /127.0.0.1:61486 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:04,081] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61493 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:04,082] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61493 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:04,082] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61493 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:05,648] INFO Accepted socket connection from /127.0.0.1:61495 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:05,649] INFO Refusing session request for client /127.0.0.1:61495 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:05,649] INFO Closed socket connection for client /127.0.0.1:61495 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:07,548] INFO Accepted socket connection from /127.0.0.1:61498 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:07,548] INFO Refusing session request for client /127.0.0.1:61498 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:07,549] INFO Closed socket connection for client /127.0.0.1:61498 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:09,162] INFO Accepted socket connection from /127.0.0.1:61762 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:09,162] INFO Refusing session request for client /127.0.0.1:61762 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:09,162] INFO Closed socket connection for client /127.0.0.1:61762 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:10,484] INFO Accepted socket connection from /127.0.0.1:61763 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:10,485] INFO Refusing session request for client /127.0.0.1:61763 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:10,485] INFO Closed socket connection for client /127.0.0.1:61763 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:12,162] INFO Accepted socket connection from /127.0.0.1:62262 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:12,162] INFO Refusing session request for client /127.0.0.1:62262 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:12,162] INFO Closed socket connection for client /127.0.0.1:62262 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:13,789] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:62264 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:13,789] INFO Refusing session request for client /0:0:0:0:0:0:0:1:62264 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:13,790] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:62264 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:15,791] INFO Accepted socket connection from /127.0.0.1:62515 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:15,791] INFO Refusing session request for client /127.0.0.1:62515 as it has seen zxid 0x5a our last zxid is 0x27 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:15,791] INFO Closed socket connection for client /127.0.0.1:62515 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:16,243] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2019-06-17 22:49:16,520] INFO starting (kafka.server.KafkaServer)
+[2019-06-17 22:49:16,521] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2019-06-17 22:49:16,534] INFO [ZooKeeperClient] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2019-06-17 22:49:16,538] INFO Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:49:16,539] INFO Client environment:host.name=192.168.1.102 (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:49:16,539] INFO Client environment:java.version=1.8.0_201 (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:49:16,539] INFO Client environment:java.vendor=Oracle Corporation (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:49:16,539] INFO Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:49:16,539] INFO Client environment:java.class.path=/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/activation-1.1.1.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/aopalliance-repackaged-2.5.0-b42.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/argparse4j-0.7.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/audience-annotations-0.5.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/commons-lang3-3.8.1.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/connect-api-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/connect-basic-auth-extension-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/connect-file-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/connect-json-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/connect-runtime-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/connect-transforms-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/guava-20.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/hk2-api-2.5.0-b42.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/hk2-locator-2.5.0-b42.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/hk2-utils-2.5.0-b42.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jackson-annotations-2.9.8.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jackson-core-2.9.8.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jackson-databind-2.9.8.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jackson-datatype-jdk8-2.9.8.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jackson-jaxrs-base-2.9.8.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jackson-jaxrs-json-provider-2.9.8.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jackson-module-jaxb-annotations-2.9.8.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/javassist-3.22.0-CR2.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/javax.annotation-api-1.2.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/javax.inject-1.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/javax.inject-2.5.0-b42.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/javax.servlet-api-3.1.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/javax.ws.rs-api-2.1.1.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/javax.ws.rs-api-2.1.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jaxb-api-2.3.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jersey-client-2.27.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jersey-common-2.27.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jersey-container-servlet-2.27.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jersey-container-servlet-core-2.27.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jersey-hk2-2.27.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jersey-media-jaxb-2.27.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jersey-server-2.27.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-client-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-continuation-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-http-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-io-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-security-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-server-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-servlet-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-servlets-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jetty-util-9.4.14.v20181114.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/jopt-simple-5.0.4.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka-clients-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka-log4j-appender-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka-streams-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka-streams-examples-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka-streams-scala_2.11-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka-streams-test-utils-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka-tools-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka_2.11-2.2.0-sources.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/kafka_2.11-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/log4j-1.2.17.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/lz4-java-1.5.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/maven-artifact-3.6.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/metrics-core-2.2.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/osgi-resource-locator-1.0.1.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/plexus-utils-3.1.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/reflections-0.9.11.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/rocksdbjni-5.15.10.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/scala-library-2.11.12.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/scala-logging_2.11-3.9.0.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/scala-reflect-2.11.12.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/slf4j-api-1.7.25.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/slf4j-log4j12-1.7.25.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/snappy-java-1.1.7.2.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/validation-api-1.1.0.Final.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/zkclient-0.11.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/zookeeper-3.4.13.jar:/Users/hidrofob/Github/SpringApacheKafka/kafka/bin/../libs/zstd-jni-1.3.8-1.jar (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:49:16,546] INFO Client environment:java.library.path=/Users/hidrofob/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:. (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:49:16,546] INFO Client environment:java.io.tmpdir=/var/folders/wh/_7v_hl156k7c90r_d059nysr0000gn/T/ (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:49:16,546] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:49:16,546] INFO Client environment:os.name=Mac OS X (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:49:16,546] INFO Client environment:os.arch=x86_64 (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:49:16,546] INFO Client environment:os.version=10.14.5 (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:49:16,546] INFO Client environment:user.name=hidrofob (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:49:16,546] INFO Client environment:user.home=/Users/hidrofob (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:49:16,546] INFO Client environment:user.dir=/Users/hidrofob/GitHub/SpringApacheKafka/kafka (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:49:16,547] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@747ddf94 (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:49:16,559] INFO [ZooKeeperClient] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-06-17 22:49:16,559] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-06-17 22:49:16,575] INFO Accepted socket connection from /127.0.0.1:62517 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:16,578] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-06-17 22:49:16,581] INFO Client attempting to establish new session at /127.0.0.1:62517 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:16,584] INFO Established session 0x100011c29360001 with negotiated timeout 6000 for client /127.0.0.1:62517 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:16,585] INFO Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x100011c29360001, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2019-06-17 22:49:16,587] INFO [ZooKeeperClient] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-06-17 22:49:16,621] INFO Got user-level KeeperException when processing sessionid:0x100011c29360001 type:create cxid:0x1 zxid:0x29 txntype:-1 reqpath:n/a Error Path:/consumers Error:KeeperErrorCode = NodeExists for /consumers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:49:16,627] INFO Got user-level KeeperException when processing sessionid:0x100011c29360001 type:create cxid:0x2 zxid:0x2a txntype:-1 reqpath:n/a Error Path:/brokers/ids Error:KeeperErrorCode = NodeExists for /brokers/ids (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:49:16,628] INFO Got user-level KeeperException when processing sessionid:0x100011c29360001 type:create cxid:0x3 zxid:0x2b txntype:-1 reqpath:n/a Error Path:/brokers/topics Error:KeeperErrorCode = NodeExists for /brokers/topics (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:49:16,630] INFO Got user-level KeeperException when processing sessionid:0x100011c29360001 type:create cxid:0x4 zxid:0x2c txntype:-1 reqpath:n/a Error Path:/config/changes Error:KeeperErrorCode = NodeExists for /config/changes (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:49:16,631] INFO Got user-level KeeperException when processing sessionid:0x100011c29360001 type:create cxid:0x5 zxid:0x2d txntype:-1 reqpath:n/a Error Path:/admin/delete_topics Error:KeeperErrorCode = NodeExists for /admin/delete_topics (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:49:16,632] INFO Got user-level KeeperException when processing sessionid:0x100011c29360001 type:create cxid:0x6 zxid:0x2e txntype:-1 reqpath:n/a Error Path:/brokers/seqid Error:KeeperErrorCode = NodeExists for /brokers/seqid (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:49:16,634] INFO Got user-level KeeperException when processing sessionid:0x100011c29360001 type:create cxid:0x7 zxid:0x2f txntype:-1 reqpath:n/a Error Path:/isr_change_notification Error:KeeperErrorCode = NodeExists for /isr_change_notification (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:49:16,635] INFO Got user-level KeeperException when processing sessionid:0x100011c29360001 type:create cxid:0x8 zxid:0x30 txntype:-1 reqpath:n/a Error Path:/latest_producer_id_block Error:KeeperErrorCode = NodeExists for /latest_producer_id_block (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:49:16,636] INFO Got user-level KeeperException when processing sessionid:0x100011c29360001 type:create cxid:0x9 zxid:0x31 txntype:-1 reqpath:n/a Error Path:/log_dir_event_notification Error:KeeperErrorCode = NodeExists for /log_dir_event_notification (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:49:16,637] INFO Got user-level KeeperException when processing sessionid:0x100011c29360001 type:create cxid:0xa zxid:0x32 txntype:-1 reqpath:n/a Error Path:/config/topics Error:KeeperErrorCode = NodeExists for /config/topics (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:49:16,638] INFO Got user-level KeeperException when processing sessionid:0x100011c29360001 type:create cxid:0xb zxid:0x33 txntype:-1 reqpath:n/a Error Path:/config/clients Error:KeeperErrorCode = NodeExists for /config/clients (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:49:16,639] INFO Got user-level KeeperException when processing sessionid:0x100011c29360001 type:create cxid:0xc zxid:0x34 txntype:-1 reqpath:n/a Error Path:/config/users Error:KeeperErrorCode = NodeExists for /config/users (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:49:16,640] INFO Got user-level KeeperException when processing sessionid:0x100011c29360001 type:create cxid:0xd zxid:0x35 txntype:-1 reqpath:n/a Error Path:/config/brokers Error:KeeperErrorCode = NodeExists for /config/brokers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:49:16,765] INFO Cluster ID = afK9rte8RZmAuQZMFgINzg (kafka.server.KafkaServer)
+[2019-06-17 22:49:16,803] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.2-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.2-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = [DEFAULT]
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2019-06-17 22:49:16,809] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.2-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.2-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = [DEFAULT]
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2019-06-17 22:49:16,828] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:49:16,828] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:49:16,829] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:49:16,849] ERROR [KafkaServer id=0] Fatal error during KafkaServer startup. Prepare to shutdown (kafka.server.KafkaServer)
+org.apache.kafka.common.KafkaException: Failed to acquire lock on file .lock in /tmp/kafka-logs. A Kafka instance in another process or thread is using this directory.
+	at kafka.log.LogManager$$anonfun$lockLogDirs$1.apply(LogManager.scala:240)
+	at kafka.log.LogManager$$anonfun$lockLogDirs$1.apply(LogManager.scala:236)
+	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:241)
+	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:241)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at scala.collection.TraversableLike$class.flatMap(TraversableLike.scala:241)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at kafka.log.LogManager.lockLogDirs(LogManager.scala:236)
+	at kafka.log.LogManager.<init>(LogManager.scala:97)
+	at kafka.log.LogManager$.apply(LogManager.scala:1004)
+	at kafka.server.KafkaServer.startup(KafkaServer.scala:240)
+	at kafka.server.KafkaServerStartable.startup(KafkaServerStartable.scala:38)
+	at kafka.Kafka$.main(Kafka.scala:75)
+	at kafka.Kafka.main(Kafka.scala)
+[2019-06-17 22:49:16,853] INFO [KafkaServer id=0] shutting down (kafka.server.KafkaServer)
+[2019-06-17 22:49:16,855] INFO [ZooKeeperClient] Closing. (kafka.zookeeper.ZooKeeperClient)
+[2019-06-17 22:49:16,855] INFO Processed session termination for sessionid: 0x100011c29360001 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-06-17 22:49:16,856] INFO Closed socket connection for client /127.0.0.1:62517 which had sessionid 0x100011c29360001 (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:16,856] INFO Session: 0x100011c29360001 closed (org.apache.zookeeper.ZooKeeper)
+[2019-06-17 22:49:16,857] INFO EventThread shut down for session: 0x100011c29360001 (org.apache.zookeeper.ClientCnxn)
+[2019-06-17 22:49:16,858] INFO [ZooKeeperClient] Closed. (kafka.zookeeper.ZooKeeperClient)
+[2019-06-17 22:49:16,859] INFO [ThrottledChannelReaper-Fetch]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:49:17,074] INFO Accepted socket connection from /127.0.0.1:62518 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:17,074] INFO Refusing session request for client /127.0.0.1:62518 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:17,074] INFO Closed socket connection for client /127.0.0.1:62518 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:17,834] INFO [ThrottledChannelReaper-Fetch]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:49:17,834] INFO [ThrottledChannelReaper-Fetch]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:49:17,834] INFO [ThrottledChannelReaper-Produce]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:49:18,837] INFO [ThrottledChannelReaper-Produce]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:49:18,837] INFO [ThrottledChannelReaper-Produce]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:49:18,838] INFO [ThrottledChannelReaper-Request]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:49:19,173] INFO Accepted socket connection from /127.0.0.1:62769 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:19,174] INFO Refusing session request for client /127.0.0.1:62769 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:19,174] INFO Closed socket connection for client /127.0.0.1:62769 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:19,840] INFO [ThrottledChannelReaper-Request]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:49:19,840] INFO [ThrottledChannelReaper-Request]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-17 22:49:19,847] INFO [KafkaServer id=0] shut down completed (kafka.server.KafkaServer)
+[2019-06-17 22:49:19,847] ERROR Exiting Kafka. (kafka.server.KafkaServerStartable)
+[2019-06-17 22:49:19,849] INFO [KafkaServer id=0] shutting down (kafka.server.KafkaServer)
+[2019-06-17 22:49:20,526] INFO Accepted socket connection from /127.0.0.1:63020 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:20,526] INFO Refusing session request for client /127.0.0.1:63020 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:20,526] INFO Closed socket connection for client /127.0.0.1:63020 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:21,664] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:63271 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:21,664] INFO Refusing session request for client /0:0:0:0:0:0:0:1:63271 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:21,664] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:63271 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:22,978] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:63272 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:22,978] INFO Refusing session request for client /0:0:0:0:0:0:0:1:63272 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:22,978] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:63272 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:24,840] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:63523 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:24,841] INFO Refusing session request for client /0:0:0:0:0:0:0:1:63523 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:24,841] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:63523 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:25,088] INFO Accepted socket connection from /127.0.0.1:63696 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:25,095] WARN Unable to read additional data from client sessionid 0x0, likely client has closed socket (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:25,095] INFO Closed socket connection for client /127.0.0.1:63696 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:26,307] INFO Accepted socket connection from /127.0.0.1:63775 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:26,307] INFO Refusing session request for client /127.0.0.1:63775 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:26,307] INFO Closed socket connection for client /127.0.0.1:63775 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:27,902] INFO Accepted socket connection from /127.0.0.1:64026 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:27,902] INFO Refusing session request for client /127.0.0.1:64026 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:27,902] INFO Closed socket connection for client /127.0.0.1:64026 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:29,103] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:64279 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:29,104] INFO Refusing session request for client /0:0:0:0:0:0:0:1:64279 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:29,104] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:64279 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:30,430] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:64280 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:30,430] INFO Refusing session request for client /0:0:0:0:0:0:0:1:64280 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:30,430] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:64280 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:31,834] INFO Accepted socket connection from /127.0.0.1:64531 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:31,835] INFO Refusing session request for client /127.0.0.1:64531 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:31,835] INFO Closed socket connection for client /127.0.0.1:64531 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:33,904] INFO Accepted socket connection from /127.0.0.1:64532 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:33,904] INFO Refusing session request for client /127.0.0.1:64532 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:33,904] INFO Closed socket connection for client /127.0.0.1:64532 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:35,545] INFO Accepted socket connection from /127.0.0.1:64783 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:35,546] INFO Refusing session request for client /127.0.0.1:64783 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:35,546] INFO Closed socket connection for client /127.0.0.1:64783 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:36,745] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:65040 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:36,745] INFO Refusing session request for client /0:0:0:0:0:0:0:1:65040 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:36,746] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:65040 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:38,795] INFO Accepted socket connection from /127.0.0.1:65292 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:38,796] INFO Refusing session request for client /127.0.0.1:65292 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:38,796] INFO Closed socket connection for client /127.0.0.1:65292 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:40,074] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:65294 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:40,075] INFO Refusing session request for client /0:0:0:0:0:0:0:1:65294 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:40,075] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:65294 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:41,974] INFO Accepted socket connection from /127.0.0.1:49167 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:41,975] INFO Refusing session request for client /127.0.0.1:49167 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:41,975] INFO Closed socket connection for client /127.0.0.1:49167 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:43,085] INFO Accepted socket connection from /127.0.0.1:49420 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:43,085] INFO Refusing session request for client /127.0.0.1:49420 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:43,085] INFO Closed socket connection for client /127.0.0.1:49420 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:44,552] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:49671 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:44,552] INFO Refusing session request for client /0:0:0:0:0:0:0:1:49671 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:44,552] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:49671 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:46,076] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:49923 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:46,077] INFO Refusing session request for client /0:0:0:0:0:0:0:1:49923 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:46,077] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:49923 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:47,838] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:49925 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:47,838] INFO Refusing session request for client /0:0:0:0:0:0:0:1:49925 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:47,838] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:49925 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:49,893] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:50426 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:49,893] INFO Refusing session request for client /0:0:0:0:0:0:0:1:50426 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:49,893] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:50426 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:51,667] INFO Accepted socket connection from /127.0.0.1:50427 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:51,668] INFO Refusing session request for client /127.0.0.1:50427 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:51,668] INFO Closed socket connection for client /127.0.0.1:50427 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:53,470] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:50678 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:53,470] INFO Refusing session request for client /0:0:0:0:0:0:0:1:50678 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:53,470] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:50678 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:54,684] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:50680 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:54,684] INFO Refusing session request for client /0:0:0:0:0:0:0:1:50680 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:54,684] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:50680 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:56,263] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:50931 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:56,269] INFO Refusing session request for client /0:0:0:0:0:0:0:1:50931 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:56,269] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:50931 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:58,086] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:51182 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:58,086] INFO Refusing session request for client /0:0:0:0:0:0:0:1:51182 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:58,086] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:51182 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:49:59,438] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:51433 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:49:59,439] INFO Refusing session request for client /0:0:0:0:0:0:0:1:51433 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:49:59,439] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:51433 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:01,012] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:51434 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:01,013] INFO Refusing session request for client /0:0:0:0:0:0:0:1:51434 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:01,013] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:51434 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:02,849] INFO Accepted socket connection from /127.0.0.1:51685 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:02,851] INFO Refusing session request for client /127.0.0.1:51685 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:02,852] INFO Closed socket connection for client /127.0.0.1:51685 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:04,525] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:51936 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:04,526] INFO Refusing session request for client /0:0:0:0:0:0:0:1:51936 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:04,526] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:51936 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:06,381] INFO Accepted socket connection from /127.0.0.1:52187 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:06,384] INFO Refusing session request for client /127.0.0.1:52187 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:06,384] INFO Closed socket connection for client /127.0.0.1:52187 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:08,478] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:52440 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:08,478] INFO Refusing session request for client /0:0:0:0:0:0:0:1:52440 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:08,478] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:52440 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:09,969] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:52441 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:09,969] INFO Refusing session request for client /0:0:0:0:0:0:0:1:52441 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:09,969] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:52441 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:12,041] INFO Accepted socket connection from /127.0.0.1:52693 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:12,042] INFO Refusing session request for client /127.0.0.1:52693 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:12,042] INFO Closed socket connection for client /127.0.0.1:52693 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:13,764] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:52942 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:13,765] INFO Refusing session request for client /0:0:0:0:0:0:0:1:52942 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:13,765] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:52942 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:15,289] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:53193 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:15,290] INFO Refusing session request for client /0:0:0:0:0:0:0:1:53193 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:15,290] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:53193 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:17,357] INFO Accepted socket connection from /127.0.0.1:53446 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:17,358] INFO Refusing session request for client /127.0.0.1:53446 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:17,358] INFO Closed socket connection for client /127.0.0.1:53446 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:19,263] INFO Accepted socket connection from /127.0.0.1:53701 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:19,264] INFO Refusing session request for client /127.0.0.1:53701 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:19,264] INFO Closed socket connection for client /127.0.0.1:53701 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:21,363] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:53972 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:21,364] INFO Refusing session request for client /0:0:0:0:0:0:0:1:53972 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:21,364] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:53972 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:23,273] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:54224 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:23,274] INFO Refusing session request for client /0:0:0:0:0:0:0:1:54224 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:23,274] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:54224 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:25,064] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:54476 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:25,064] INFO Refusing session request for client /0:0:0:0:0:0:0:1:54476 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:25,064] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:54476 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:26,608] INFO Accepted socket connection from /127.0.0.1:54477 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:26,608] INFO Refusing session request for client /127.0.0.1:54477 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:26,608] INFO Closed socket connection for client /127.0.0.1:54477 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:28,146] INFO Accepted socket connection from /127.0.0.1:54728 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:28,146] INFO Refusing session request for client /127.0.0.1:54728 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:28,146] INFO Closed socket connection for client /127.0.0.1:54728 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:29,326] INFO Accepted socket connection from /127.0.0.1:54979 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:29,327] INFO Refusing session request for client /127.0.0.1:54979 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:29,327] INFO Closed socket connection for client /127.0.0.1:54979 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:30,601] INFO Accepted socket connection from /127.0.0.1:54980 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:30,601] INFO Refusing session request for client /127.0.0.1:54980 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:30,601] INFO Closed socket connection for client /127.0.0.1:54980 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:32,576] INFO Accepted socket connection from /127.0.0.1:55231 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:32,577] INFO Refusing session request for client /127.0.0.1:55231 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:32,577] INFO Closed socket connection for client /127.0.0.1:55231 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:34,090] INFO Accepted socket connection from /127.0.0.1:55482 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:34,090] INFO Refusing session request for client /127.0.0.1:55482 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:34,091] INFO Closed socket connection for client /127.0.0.1:55482 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:36,114] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:55733 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:36,114] INFO Refusing session request for client /0:0:0:0:0:0:0:1:55733 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:36,114] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:55733 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:37,714] INFO Accepted socket connection from /127.0.0.1:55984 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:37,715] INFO Refusing session request for client /127.0.0.1:55984 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:37,715] INFO Closed socket connection for client /127.0.0.1:55984 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:39,209] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:56235 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:39,209] INFO Refusing session request for client /0:0:0:0:0:0:0:1:56235 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:39,209] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:56235 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:41,114] INFO Accepted socket connection from /127.0.0.1:56236 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:41,114] INFO Refusing session request for client /127.0.0.1:56236 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:41,114] INFO Closed socket connection for client /127.0.0.1:56236 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:42,475] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:56480 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:42,475] INFO Refusing session request for client /0:0:0:0:0:0:0:1:56480 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:42,475] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:56480 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:43,896] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:56731 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:43,896] INFO Refusing session request for client /0:0:0:0:0:0:0:1:56731 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:43,896] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:56731 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:45,884] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:56733 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:45,884] INFO Refusing session request for client /0:0:0:0:0:0:0:1:56733 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:45,884] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:56733 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:47,912] INFO Accepted socket connection from /127.0.0.1:56985 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:47,912] INFO Refusing session request for client /127.0.0.1:56985 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:47,913] INFO Closed socket connection for client /127.0.0.1:56985 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:49,675] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:57237 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:49,676] INFO Refusing session request for client /0:0:0:0:0:0:0:1:57237 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:49,676] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:57237 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:51,548] INFO Accepted socket connection from /127.0.0.1:57488 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:51,549] INFO Refusing session request for client /127.0.0.1:57488 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:51,549] INFO Closed socket connection for client /127.0.0.1:57488 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:52,892] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:57740 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:52,892] INFO Refusing session request for client /0:0:0:0:0:0:0:1:57740 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:52,892] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:57740 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:54,961] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:57992 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:54,961] INFO Refusing session request for client /0:0:0:0:0:0:0:1:57992 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:54,961] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:57992 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:56,207] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:58243 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:56,207] INFO Refusing session request for client /0:0:0:0:0:0:0:1:58243 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:56,208] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:58243 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:57,447] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:58244 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:57,448] INFO Refusing session request for client /0:0:0:0:0:0:0:1:58244 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:57,448] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:58244 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:50:59,049] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:58495 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:50:59,050] INFO Refusing session request for client /0:0:0:0:0:0:0:1:58495 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:50:59,050] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:58495 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:01,006] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:58498 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:01,006] INFO Refusing session request for client /0:0:0:0:0:0:0:1:58498 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:01,006] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:58498 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:02,130] INFO Accepted socket connection from /127.0.0.1:58749 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:02,131] INFO Refusing session request for client /127.0.0.1:58749 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:02,131] INFO Closed socket connection for client /127.0.0.1:58749 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:03,513] INFO Accepted socket connection from /127.0.0.1:59000 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:03,513] INFO Refusing session request for client /127.0.0.1:59000 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:03,513] INFO Closed socket connection for client /127.0.0.1:59000 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:04,646] INFO Accepted socket connection from /127.0.0.1:59001 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:04,647] INFO Refusing session request for client /127.0.0.1:59001 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:04,647] INFO Closed socket connection for client /127.0.0.1:59001 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:05,775] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:59252 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:05,776] INFO Refusing session request for client /0:0:0:0:0:0:0:1:59252 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:05,776] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:59252 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:07,468] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:59503 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:07,469] INFO Refusing session request for client /0:0:0:0:0:0:0:1:59503 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:07,469] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:59503 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:09,326] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:59754 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:09,327] INFO Refusing session request for client /0:0:0:0:0:0:0:1:59754 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:09,327] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:59754 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:11,231] INFO Accepted socket connection from /127.0.0.1:60005 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:11,231] INFO Refusing session request for client /127.0.0.1:60005 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:11,232] INFO Closed socket connection for client /127.0.0.1:60005 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:12,993] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:60256 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:12,993] INFO Refusing session request for client /0:0:0:0:0:0:0:1:60256 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:12,993] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:60256 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:14,552] INFO Accepted socket connection from /127.0.0.1:60257 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:14,552] INFO Refusing session request for client /127.0.0.1:60257 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:14,552] INFO Closed socket connection for client /127.0.0.1:60257 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:16,249] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:60508 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:16,249] INFO Refusing session request for client /0:0:0:0:0:0:0:1:60508 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:16,249] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:60508 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:17,772] INFO Accepted socket connection from /127.0.0.1:60509 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:17,773] INFO Refusing session request for client /127.0.0.1:60509 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:17,773] INFO Closed socket connection for client /127.0.0.1:60509 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:19,746] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:60764 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:19,747] INFO Refusing session request for client /0:0:0:0:0:0:0:1:60764 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:19,747] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:60764 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:21,314] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61025 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:21,314] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61025 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:21,314] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61025 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:22,676] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61280 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:22,676] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61280 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:22,676] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61280 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:24,449] INFO Accepted socket connection from /127.0.0.1:61540 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:24,450] INFO Refusing session request for client /127.0.0.1:61540 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:24,450] INFO Closed socket connection for client /127.0.0.1:61540 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:26,070] INFO Accepted socket connection from /127.0.0.1:61791 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:26,071] INFO Refusing session request for client /127.0.0.1:61791 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:26,071] INFO Closed socket connection for client /127.0.0.1:61791 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:27,591] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61792 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:27,592] INFO Refusing session request for client /0:0:0:0:0:0:0:1:61792 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:27,592] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61792 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:29,108] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:62045 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:29,108] INFO Refusing session request for client /0:0:0:0:0:0:0:1:62045 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:29,108] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:62045 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:30,583] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:62297 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:30,584] INFO Refusing session request for client /0:0:0:0:0:0:0:1:62297 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:30,584] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:62297 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:31,899] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:62551 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:31,900] INFO Refusing session request for client /0:0:0:0:0:0:0:1:62551 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:31,900] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:62551 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:33,075] INFO Accepted socket connection from /127.0.0.1:62558 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:33,076] INFO Refusing session request for client /127.0.0.1:62558 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:33,076] INFO Closed socket connection for client /127.0.0.1:62558 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:34,299] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:62559 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:34,299] INFO Refusing session request for client /0:0:0:0:0:0:0:1:62559 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:34,299] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:62559 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:36,177] INFO Accepted socket connection from /127.0.0.1:62810 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:36,177] INFO Refusing session request for client /127.0.0.1:62810 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:36,178] INFO Closed socket connection for client /127.0.0.1:62810 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:37,542] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:63061 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:37,543] INFO Refusing session request for client /0:0:0:0:0:0:0:1:63061 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:37,543] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:63061 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:39,588] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:63312 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:39,589] INFO Refusing session request for client /0:0:0:0:0:0:0:1:63312 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:39,589] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:63312 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:41,032] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:63313 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:41,033] INFO Refusing session request for client /0:0:0:0:0:0:0:1:63313 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:41,033] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:63313 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:42,214] INFO Accepted socket connection from /127.0.0.1:63564 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:42,214] INFO Refusing session request for client /127.0.0.1:63564 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:42,214] INFO Closed socket connection for client /127.0.0.1:63564 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:44,016] INFO Accepted socket connection from /127.0.0.1:63815 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:44,017] INFO Refusing session request for client /127.0.0.1:63815 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:44,017] INFO Closed socket connection for client /127.0.0.1:63815 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:45,720] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:64066 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:45,720] INFO Refusing session request for client /0:0:0:0:0:0:0:1:64066 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:45,720] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:64066 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:47,334] INFO Accepted socket connection from /127.0.0.1:64318 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:47,334] INFO Refusing session request for client /127.0.0.1:64318 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:47,334] INFO Closed socket connection for client /127.0.0.1:64318 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:49,297] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:64319 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:49,297] INFO Refusing session request for client /0:0:0:0:0:0:0:1:64319 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:49,297] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:64319 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:51,325] INFO Accepted socket connection from /127.0.0.1:64821 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:51,326] INFO Refusing session request for client /127.0.0.1:64821 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:51,326] INFO Closed socket connection for client /127.0.0.1:64821 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:52,529] INFO Accepted socket connection from /127.0.0.1:64822 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:52,530] INFO Refusing session request for client /127.0.0.1:64822 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:52,530] INFO Closed socket connection for client /127.0.0.1:64822 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:53,842] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:65076 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:53,842] INFO Refusing session request for client /0:0:0:0:0:0:0:1:65076 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:53,842] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:65076 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:55,696] INFO Accepted socket connection from /127.0.0.1:65328 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:55,697] INFO Refusing session request for client /127.0.0.1:65328 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:55,697] INFO Closed socket connection for client /127.0.0.1:65328 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:57,075] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:65329 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:57,075] INFO Refusing session request for client /0:0:0:0:0:0:0:1:65329 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:57,076] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:65329 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:58,461] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:49196 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:58,461] INFO Refusing session request for client /0:0:0:0:0:0:0:1:49196 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:58,461] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:49196 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:51:59,662] INFO Accepted socket connection from /127.0.0.1:49199 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:51:59,663] INFO Refusing session request for client /127.0.0.1:49199 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:51:59,663] INFO Closed socket connection for client /127.0.0.1:49199 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:01,275] INFO Accepted socket connection from /127.0.0.1:49451 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:01,275] INFO Refusing session request for client /127.0.0.1:49451 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:01,275] INFO Closed socket connection for client /127.0.0.1:49451 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:02,927] INFO Accepted socket connection from /127.0.0.1:49702 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:02,927] INFO Refusing session request for client /127.0.0.1:49702 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:02,927] INFO Closed socket connection for client /127.0.0.1:49702 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:04,326] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:49953 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:04,327] INFO Refusing session request for client /0:0:0:0:0:0:0:1:49953 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:04,327] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:49953 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:06,170] INFO Accepted socket connection from /127.0.0.1:50206 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:06,172] INFO Refusing session request for client /127.0.0.1:50206 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:06,172] INFO Closed socket connection for client /127.0.0.1:50206 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:07,374] INFO Accepted socket connection from /127.0.0.1:50207 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:07,374] INFO Refusing session request for client /127.0.0.1:50207 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:07,374] INFO Closed socket connection for client /127.0.0.1:50207 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:09,472] INFO Accepted socket connection from /127.0.0.1:50458 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:09,473] INFO Refusing session request for client /127.0.0.1:50458 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:09,473] INFO Closed socket connection for client /127.0.0.1:50458 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:11,005] INFO Accepted socket connection from /127.0.0.1:50710 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:11,005] INFO Refusing session request for client /127.0.0.1:50710 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:11,005] INFO Closed socket connection for client /127.0.0.1:50710 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:13,052] INFO Accepted socket connection from /127.0.0.1:50711 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:13,053] INFO Refusing session request for client /127.0.0.1:50711 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:13,053] INFO Closed socket connection for client /127.0.0.1:50711 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:15,207] INFO Accepted socket connection from /127.0.0.1:50962 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:15,208] INFO Refusing session request for client /127.0.0.1:50962 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:15,208] INFO Closed socket connection for client /127.0.0.1:50962 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:16,893] INFO Accepted socket connection from /127.0.0.1:51213 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:16,898] INFO Refusing session request for client /127.0.0.1:51213 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:16,898] INFO Closed socket connection for client /127.0.0.1:51213 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:18,550] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:51464 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:18,550] INFO Refusing session request for client /0:0:0:0:0:0:0:1:51464 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:18,550] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:51464 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:20,265] INFO Accepted socket connection from /127.0.0.1:51715 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:20,265] INFO Refusing session request for client /127.0.0.1:51715 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:20,265] INFO Closed socket connection for client /127.0.0.1:51715 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:21,753] INFO Accepted socket connection from /127.0.0.1:51966 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:21,753] INFO Refusing session request for client /127.0.0.1:51966 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:21,753] INFO Closed socket connection for client /127.0.0.1:51966 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:22,874] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:51967 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:22,875] INFO Refusing session request for client /0:0:0:0:0:0:0:1:51967 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:22,875] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:51967 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:24,251] INFO Accepted socket connection from /127.0.0.1:52218 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:24,251] INFO Refusing session request for client /127.0.0.1:52218 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:24,251] INFO Closed socket connection for client /127.0.0.1:52218 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:25,965] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:52469 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:25,966] INFO Refusing session request for client /0:0:0:0:0:0:0:1:52469 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:25,966] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:52469 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:28,014] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:52721 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:28,014] INFO Refusing session request for client /0:0:0:0:0:0:0:1:52721 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:28,014] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:52721 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:29,216] INFO Accepted socket connection from /127.0.0.1:52722 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:29,216] INFO Refusing session request for client /127.0.0.1:52722 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:29,216] INFO Closed socket connection for client /127.0.0.1:52722 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:30,616] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:52973 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:30,616] INFO Refusing session request for client /0:0:0:0:0:0:0:1:52973 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:30,616] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:52973 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:32,128] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:52974 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:32,129] INFO Refusing session request for client /0:0:0:0:0:0:0:1:52974 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:32,129] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:52974 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:33,490] INFO Accepted socket connection from /127.0.0.1:53227 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:33,491] INFO Refusing session request for client /127.0.0.1:53227 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:33,491] INFO Closed socket connection for client /127.0.0.1:53227 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:35,362] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:53478 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:35,362] INFO Refusing session request for client /0:0:0:0:0:0:0:1:53478 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:35,362] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:53478 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:36,815] INFO Accepted socket connection from /127.0.0.1:53729 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:36,816] INFO Refusing session request for client /127.0.0.1:53729 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:36,816] INFO Closed socket connection for client /127.0.0.1:53729 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:38,265] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:53980 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:38,265] INFO Refusing session request for client /0:0:0:0:0:0:0:1:53980 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:38,265] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:53980 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:39,483] INFO Accepted socket connection from /127.0.0.1:53981 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:39,484] INFO Refusing session request for client /127.0.0.1:53981 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:39,484] INFO Closed socket connection for client /127.0.0.1:53981 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:41,435] INFO Accepted socket connection from /127.0.0.1:54233 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:41,436] INFO Refusing session request for client /127.0.0.1:54233 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:41,436] INFO Closed socket connection for client /127.0.0.1:54233 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:43,391] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:54484 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:43,391] INFO Refusing session request for client /0:0:0:0:0:0:0:1:54484 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:43,391] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:54484 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:44,934] INFO Accepted socket connection from /127.0.0.1:54485 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:44,934] INFO Refusing session request for client /127.0.0.1:54485 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:44,934] INFO Closed socket connection for client /127.0.0.1:54485 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:46,256] INFO Accepted socket connection from /127.0.0.1:54736 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:46,257] INFO Refusing session request for client /127.0.0.1:54736 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:46,257] INFO Closed socket connection for client /127.0.0.1:54736 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:48,365] INFO Accepted socket connection from /127.0.0.1:54987 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:48,365] INFO Refusing session request for client /127.0.0.1:54987 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:48,366] INFO Closed socket connection for client /127.0.0.1:54987 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:50,152] INFO Accepted socket connection from /127.0.0.1:55238 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:50,152] INFO Refusing session request for client /127.0.0.1:55238 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:50,152] INFO Closed socket connection for client /127.0.0.1:55238 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:51,867] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:55489 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:51,868] INFO Refusing session request for client /0:0:0:0:0:0:0:1:55489 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:51,868] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:55489 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:53,152] INFO Accepted socket connection from /127.0.0.1:55740 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:53,153] INFO Refusing session request for client /127.0.0.1:55740 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:53,153] INFO Closed socket connection for client /127.0.0.1:55740 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:54,304] INFO Accepted socket connection from /127.0.0.1:55742 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:54,304] INFO Refusing session request for client /127.0.0.1:55742 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:54,304] INFO Closed socket connection for client /127.0.0.1:55742 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-06-17 22:52:56,322] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:55993 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-17 22:52:56,322] INFO Refusing session request for client /0:0:0:0:0:0:0:1:55993 as it has seen zxid 0x5a our last zxid is 0x36 client must try another server (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-17 22:52:56,322] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:55993 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)

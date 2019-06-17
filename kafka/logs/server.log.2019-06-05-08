@@ -1,6 +1,0 @@
-[2019-06-05 08:00:02,966] INFO [GroupCoordinator 0]: Preparing to rebalance group jsa-group in state PreparingRebalance with old generation 2 (__consumer_offsets-34) (reason: Adding new member consumer-1-639a44b9-d507-4a13-9702-93197457d09e) (kafka.coordinator.group.GroupCoordinator)
-[2019-06-05 08:00:02,969] INFO [GroupCoordinator 0]: Stabilized group jsa-group generation 3 (__consumer_offsets-34) (kafka.coordinator.group.GroupCoordinator)
-[2019-06-05 08:00:02,973] INFO [GroupCoordinator 0]: Assignment received from leader for group jsa-group for generation 3 (kafka.coordinator.group.GroupCoordinator)
-[2019-06-05 08:05:13,317] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 5 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
-[2019-06-05 08:15:13,321] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
-[2019-06-05 08:25:13,332] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
