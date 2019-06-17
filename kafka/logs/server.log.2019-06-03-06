@@ -1,0 +1,534 @@
+[2019-06-03 06:02:02,001] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2019-06-03 06:02:02,005] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2019-06-03 06:02:02,007] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2019-06-03 06:02:02,007] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2019-06-03 06:02:02,007] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2019-06-03 06:02:02,030] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2019-06-03 06:02:02,030] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2019-06-03 06:02:02,045] INFO Server environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:02:02,046] INFO Server environment:host.name=192.168.1.102 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:02:02,046] INFO Server environment:java.version=1.8.0_201 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:02:02,046] INFO Server environment:java.vendor=Oracle Corporation (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:02:02,046] INFO Server environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:02:02,046] INFO Server environment:java.class.path=/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/activation-1.1.1.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/aopalliance-repackaged-2.5.0-b42.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/argparse4j-0.7.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/audience-annotations-0.5.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/commons-lang3-3.8.1.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/connect-api-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/connect-basic-auth-extension-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/connect-file-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/connect-json-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/connect-runtime-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/connect-transforms-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/guava-20.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/hk2-api-2.5.0-b42.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/hk2-locator-2.5.0-b42.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/hk2-utils-2.5.0-b42.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jackson-annotations-2.9.8.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jackson-core-2.9.8.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jackson-databind-2.9.8.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jackson-datatype-jdk8-2.9.8.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jackson-jaxrs-base-2.9.8.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jackson-jaxrs-json-provider-2.9.8.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jackson-module-jaxb-annotations-2.9.8.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/javassist-3.22.0-CR2.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/javax.annotation-api-1.2.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/javax.inject-1.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/javax.inject-2.5.0-b42.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/javax.servlet-api-3.1.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/javax.ws.rs-api-2.1.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jaxb-api-2.3.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jersey-client-2.27.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jersey-common-2.27.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jersey-container-servlet-2.27.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jersey-container-servlet-core-2.27.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jersey-hk2-2.27.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jersey-media-jaxb-2.27.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jersey-server-2.27.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-client-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-continuation-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-http-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-io-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-security-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-server-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-servlet-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-servlets-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-util-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jopt-simple-5.0.4.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka-clients-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka-log4j-appender-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka-streams-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka-streams-examples-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka-streams-scala_2.11-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka-streams-test-utils-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka-tools-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka_2.11-2.2.0-sources.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka_2.11-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/log4j-1.2.17.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/lz4-java-1.5.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/maven-artifact-3.6.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/metrics-core-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/plexus-utils-3.1.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/reflections-0.9.11.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/rocksdbjni-5.15.10.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/scala-library-2.11.12.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/scala-logging_2.11-3.9.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/scala-reflect-2.11.12.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/slf4j-api-1.7.25.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/slf4j-log4j12-1.7.25.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/snappy-java-1.1.7.2.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/validation-api-1.1.0.Final.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/zkclient-0.11.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/zookeeper-3.4.13.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/zstd-jni-1.3.8-1.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:02:02,047] INFO Server environment:java.library.path=/Users/hidrofob/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:. (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:02:02,047] INFO Server environment:java.io.tmpdir=/var/folders/wh/_7v_hl156k7c90r_d059nysr0000gn/T/ (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:02:02,047] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:02:02,047] INFO Server environment:os.name=Mac OS X (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:02:02,047] INFO Server environment:os.arch=x86_64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:02:02,047] INFO Server environment:os.version=10.14.5 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:02:02,047] INFO Server environment:user.name=hidrofob (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:02:02,047] INFO Server environment:user.home=/Users/hidrofob (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:02:02,047] INFO Server environment:user.dir=/Users/hidrofob/kafka_2.11-2.2.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:02:02,060] INFO tickTime set to 3000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:02:02,060] INFO minSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:02:02,060] INFO maxSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:02:02,076] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2019-06-03 06:02:02,094] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-03 06:06:41,335] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2019-06-03 06:06:41,339] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2019-06-03 06:06:41,341] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2019-06-03 06:06:41,341] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2019-06-03 06:06:41,341] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2019-06-03 06:06:41,363] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2019-06-03 06:06:41,363] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2019-06-03 06:06:41,384] INFO Server environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:06:41,384] INFO Server environment:host.name=192.168.1.102 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:06:41,384] INFO Server environment:java.version=1.8.0_201 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:06:41,385] INFO Server environment:java.vendor=Oracle Corporation (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:06:41,385] INFO Server environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:06:41,385] INFO Server environment:java.class.path=/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/activation-1.1.1.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/aopalliance-repackaged-2.5.0-b42.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/argparse4j-0.7.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/audience-annotations-0.5.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/commons-lang3-3.8.1.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/connect-api-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/connect-basic-auth-extension-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/connect-file-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/connect-json-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/connect-runtime-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/connect-transforms-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/guava-20.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/hk2-api-2.5.0-b42.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/hk2-locator-2.5.0-b42.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/hk2-utils-2.5.0-b42.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jackson-annotations-2.9.8.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jackson-core-2.9.8.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jackson-databind-2.9.8.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jackson-datatype-jdk8-2.9.8.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jackson-jaxrs-base-2.9.8.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jackson-jaxrs-json-provider-2.9.8.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jackson-module-jaxb-annotations-2.9.8.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/javassist-3.22.0-CR2.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/javax.annotation-api-1.2.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/javax.inject-1.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/javax.inject-2.5.0-b42.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/javax.servlet-api-3.1.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/javax.ws.rs-api-2.1.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jaxb-api-2.3.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jersey-client-2.27.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jersey-common-2.27.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jersey-container-servlet-2.27.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jersey-container-servlet-core-2.27.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jersey-hk2-2.27.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jersey-media-jaxb-2.27.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jersey-server-2.27.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-client-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-continuation-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-http-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-io-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-security-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-server-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-servlet-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-servlets-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-util-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jopt-simple-5.0.4.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka-clients-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka-log4j-appender-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka-streams-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka-streams-examples-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka-streams-scala_2.11-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka-streams-test-utils-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka-tools-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka_2.11-2.2.0-sources.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka_2.11-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/log4j-1.2.17.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/lz4-java-1.5.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/maven-artifact-3.6.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/metrics-core-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/plexus-utils-3.1.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/reflections-0.9.11.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/rocksdbjni-5.15.10.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/scala-library-2.11.12.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/scala-logging_2.11-3.9.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/scala-reflect-2.11.12.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/slf4j-api-1.7.25.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/slf4j-log4j12-1.7.25.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/snappy-java-1.1.7.2.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/validation-api-1.1.0.Final.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/zkclient-0.11.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/zookeeper-3.4.13.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/zstd-jni-1.3.8-1.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:06:41,385] INFO Server environment:java.library.path=/Users/hidrofob/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:. (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:06:41,385] INFO Server environment:java.io.tmpdir=/var/folders/wh/_7v_hl156k7c90r_d059nysr0000gn/T/ (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:06:41,386] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:06:41,386] INFO Server environment:os.name=Mac OS X (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:06:41,386] INFO Server environment:os.arch=x86_64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:06:41,386] INFO Server environment:os.version=10.14.5 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:06:41,386] INFO Server environment:user.name=hidrofob (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:06:41,386] INFO Server environment:user.home=/Users/hidrofob (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:06:41,386] INFO Server environment:user.dir=/Users/hidrofob/kafka_2.11-2.2.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:06:41,397] INFO tickTime set to 3000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:06:41,397] INFO minSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:06:41,397] INFO maxSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-06-03 06:06:41,412] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2019-06-03 06:06:41,423] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-06-03 06:07:13,120] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2019-06-03 06:07:13,696] INFO starting (kafka.server.KafkaServer)
+[2019-06-03 06:07:13,697] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2019-06-03 06:07:13,730] INFO [ZooKeeperClient] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2019-06-03 06:07:13,740] INFO Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT (org.apache.zookeeper.ZooKeeper)
+[2019-06-03 06:07:13,741] INFO Client environment:host.name=192.168.1.102 (org.apache.zookeeper.ZooKeeper)
+[2019-06-03 06:07:13,741] INFO Client environment:java.version=1.8.0_201 (org.apache.zookeeper.ZooKeeper)
+[2019-06-03 06:07:13,741] INFO Client environment:java.vendor=Oracle Corporation (org.apache.zookeeper.ZooKeeper)
+[2019-06-03 06:07:13,741] INFO Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre (org.apache.zookeeper.ZooKeeper)
+[2019-06-03 06:07:13,741] INFO Client environment:java.class.path=/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/activation-1.1.1.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/aopalliance-repackaged-2.5.0-b42.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/argparse4j-0.7.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/audience-annotations-0.5.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/commons-lang3-3.8.1.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/connect-api-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/connect-basic-auth-extension-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/connect-file-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/connect-json-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/connect-runtime-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/connect-transforms-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/guava-20.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/hk2-api-2.5.0-b42.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/hk2-locator-2.5.0-b42.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/hk2-utils-2.5.0-b42.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jackson-annotations-2.9.8.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jackson-core-2.9.8.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jackson-databind-2.9.8.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jackson-datatype-jdk8-2.9.8.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jackson-jaxrs-base-2.9.8.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jackson-jaxrs-json-provider-2.9.8.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jackson-module-jaxb-annotations-2.9.8.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/javassist-3.22.0-CR2.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/javax.annotation-api-1.2.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/javax.inject-1.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/javax.inject-2.5.0-b42.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/javax.servlet-api-3.1.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/javax.ws.rs-api-2.1.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jaxb-api-2.3.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jersey-client-2.27.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jersey-common-2.27.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jersey-container-servlet-2.27.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jersey-container-servlet-core-2.27.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jersey-hk2-2.27.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jersey-media-jaxb-2.27.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jersey-server-2.27.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-client-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-continuation-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-http-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-io-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-security-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-server-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-servlet-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-servlets-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jetty-util-9.4.14.v20181114.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/jopt-simple-5.0.4.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka-clients-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka-log4j-appender-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka-streams-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka-streams-examples-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka-streams-scala_2.11-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka-streams-test-utils-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka-tools-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka_2.11-2.2.0-sources.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/kafka_2.11-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/log4j-1.2.17.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/lz4-java-1.5.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/maven-artifact-3.6.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/metrics-core-2.2.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/plexus-utils-3.1.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/reflections-0.9.11.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/rocksdbjni-5.15.10.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/scala-library-2.11.12.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/scala-logging_2.11-3.9.0.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/scala-reflect-2.11.12.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/slf4j-api-1.7.25.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/slf4j-log4j12-1.7.25.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/snappy-java-1.1.7.2.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/validation-api-1.1.0.Final.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/zkclient-0.11.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/zookeeper-3.4.13.jar:/Users/hidrofob/kafka_2.11-2.2.0/bin/../libs/zstd-jni-1.3.8-1.jar (org.apache.zookeeper.ZooKeeper)
+[2019-06-03 06:07:13,742] INFO Client environment:java.library.path=/Users/hidrofob/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:. (org.apache.zookeeper.ZooKeeper)
+[2019-06-03 06:07:13,742] INFO Client environment:java.io.tmpdir=/var/folders/wh/_7v_hl156k7c90r_d059nysr0000gn/T/ (org.apache.zookeeper.ZooKeeper)
+[2019-06-03 06:07:13,742] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2019-06-03 06:07:13,742] INFO Client environment:os.name=Mac OS X (org.apache.zookeeper.ZooKeeper)
+[2019-06-03 06:07:13,742] INFO Client environment:os.arch=x86_64 (org.apache.zookeeper.ZooKeeper)
+[2019-06-03 06:07:13,742] INFO Client environment:os.version=10.14.5 (org.apache.zookeeper.ZooKeeper)
+[2019-06-03 06:07:13,742] INFO Client environment:user.name=hidrofob (org.apache.zookeeper.ZooKeeper)
+[2019-06-03 06:07:13,742] INFO Client environment:user.home=/Users/hidrofob (org.apache.zookeeper.ZooKeeper)
+[2019-06-03 06:07:13,743] INFO Client environment:user.dir=/Users/hidrofob/kafka_2.11-2.2.0 (org.apache.zookeeper.ZooKeeper)
+[2019-06-03 06:07:13,745] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@747ddf94 (org.apache.zookeeper.ZooKeeper)
+[2019-06-03 06:07:13,767] INFO [ZooKeeperClient] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-06-03 06:07:13,768] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-06-03 06:07:13,783] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-06-03 06:07:13,852] INFO Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x10000f54b000018, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2019-06-03 06:07:13,856] INFO [ZooKeeperClient] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-06-03 06:07:14,305] INFO Cluster ID = iWc_5lVnQNGPxNtTUjQv4Q (kafka.server.KafkaServer)
+[2019-06-03 06:07:14,310] WARN No meta.properties file under dir /tmp/kafka-logs/meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2019-06-03 06:07:14,392] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.2-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.2-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = [DEFAULT]
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2019-06-03 06:07:14,401] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.2-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.2-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = [DEFAULT]
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2019-06-03 06:07:14,443] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-03 06:07:14,443] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-03 06:07:14,445] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-03 06:07:14,505] INFO Log directory /tmp/kafka-logs not found, creating it. (kafka.log.LogManager)
+[2019-06-03 06:07:14,517] INFO Loading logs. (kafka.log.LogManager)
+[2019-06-03 06:07:14,529] INFO Logs loading complete in 12 ms. (kafka.log.LogManager)
+[2019-06-03 06:07:14,547] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2019-06-03 06:07:14,550] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2019-06-03 06:07:14,922] INFO Awaiting socket connections on s0.0.0.0:9092. (kafka.network.Acceptor)
+[2019-06-03 06:07:14,968] INFO [SocketServer brokerId=0] Created data-plane acceptor and processors for endpoint : EndPoint(null,9092,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.network.SocketServer)
+[2019-06-03 06:07:14,969] INFO [SocketServer brokerId=0] Started 1 acceptor threads for data-plane (kafka.network.SocketServer)
+[2019-06-03 06:07:15,000] INFO [ExpirationReaper-0-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-06-03 06:07:15,001] INFO [ExpirationReaper-0-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-06-03 06:07:15,002] INFO [ExpirationReaper-0-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-06-03 06:07:15,003] INFO [ExpirationReaper-0-ElectPreferredLeader]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-06-03 06:07:15,022] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2019-06-03 06:07:15,094] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.zk.KafkaZkClient)
+[2019-06-03 06:07:15,283] ERROR Error while creating ephemeral at /brokers/ids/0, node already exists and owner '72058647563206679' does not match current session '72058647563206680' (kafka.zk.KafkaZkClient$CheckedEphemeral)
+[2019-06-03 06:07:15,289] ERROR [KafkaServer id=0] Fatal error during KafkaServer startup. Prepare to shutdown (kafka.server.KafkaServer)
+org.apache.zookeeper.KeeperException$NodeExistsException: KeeperErrorCode = NodeExists
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:122)
+	at kafka.zk.KafkaZkClient$CheckedEphemeral.getAfterNodeExists(KafkaZkClient.scala:1784)
+	at kafka.zk.KafkaZkClient$CheckedEphemeral.create(KafkaZkClient.scala:1722)
+	at kafka.zk.KafkaZkClient.checkedEphemeralCreate(KafkaZkClient.scala:1689)
+	at kafka.zk.KafkaZkClient.registerBroker(KafkaZkClient.scala:97)
+	at kafka.server.KafkaServer.startup(KafkaServer.scala:260)
+	at kafka.server.KafkaServerStartable.startup(KafkaServerStartable.scala:38)
+	at kafka.Kafka$.main(Kafka.scala:75)
+	at kafka.Kafka.main(Kafka.scala)
+[2019-06-03 06:07:15,291] INFO [KafkaServer id=0] shutting down (kafka.server.KafkaServer)
+[2019-06-03 06:07:15,293] INFO [SocketServer brokerId=0] Stopping socket server request processors (kafka.network.SocketServer)
+[2019-06-03 06:07:15,298] INFO [SocketServer brokerId=0] Stopped socket server request processors (kafka.network.SocketServer)
+[2019-06-03 06:07:15,301] INFO [ReplicaManager broker=0] Shutting down (kafka.server.ReplicaManager)
+[2019-06-03 06:07:15,303] INFO [LogDirFailureHandler]: Shutting down (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2019-06-03 06:07:15,303] INFO [LogDirFailureHandler]: Shutdown completed (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2019-06-03 06:07:15,303] INFO [LogDirFailureHandler]: Stopped (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2019-06-03 06:07:15,304] INFO [ReplicaFetcherManager on broker 0] shutting down (kafka.server.ReplicaFetcherManager)
+[2019-06-03 06:07:15,306] INFO [ReplicaFetcherManager on broker 0] shutdown completed (kafka.server.ReplicaFetcherManager)
+[2019-06-03 06:07:15,306] INFO [ReplicaAlterLogDirsManager on broker 0] shutting down (kafka.server.ReplicaAlterLogDirsManager)
+[2019-06-03 06:07:15,306] INFO [ReplicaAlterLogDirsManager on broker 0] shutdown completed (kafka.server.ReplicaAlterLogDirsManager)
+[2019-06-03 06:07:15,307] INFO [ExpirationReaper-0-Fetch]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-06-03 06:07:15,405] INFO [ExpirationReaper-0-Fetch]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-06-03 06:07:15,405] INFO [ExpirationReaper-0-Fetch]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-06-03 06:07:15,406] INFO [ExpirationReaper-0-Produce]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-06-03 06:07:15,606] INFO [ExpirationReaper-0-Produce]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-06-03 06:07:15,609] INFO [ExpirationReaper-0-Produce]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-06-03 06:07:15,610] INFO [ExpirationReaper-0-DeleteRecords]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-06-03 06:07:15,810] INFO [ExpirationReaper-0-DeleteRecords]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-06-03 06:07:15,810] INFO [ExpirationReaper-0-DeleteRecords]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-06-03 06:07:15,810] INFO [ExpirationReaper-0-ElectPreferredLeader]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-06-03 06:07:16,013] INFO [ExpirationReaper-0-ElectPreferredLeader]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-06-03 06:07:16,013] INFO [ExpirationReaper-0-ElectPreferredLeader]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-06-03 06:07:16,021] INFO [ReplicaManager broker=0] Shut down completely (kafka.server.ReplicaManager)
+[2019-06-03 06:07:16,022] INFO Shutting down. (kafka.log.LogManager)
+[2019-06-03 06:07:16,046] INFO Shutdown complete. (kafka.log.LogManager)
+[2019-06-03 06:07:16,048] INFO [ZooKeeperClient] Closing. (kafka.zookeeper.ZooKeeperClient)
+[2019-06-03 06:07:16,052] INFO Session: 0x10000f54b000018 closed (org.apache.zookeeper.ZooKeeper)
+[2019-06-03 06:07:16,053] INFO [ZooKeeperClient] Closed. (kafka.zookeeper.ZooKeeperClient)
+[2019-06-03 06:07:16,054] INFO EventThread shut down for session: 0x10000f54b000018 (org.apache.zookeeper.ClientCnxn)
+[2019-06-03 06:07:16,054] INFO [ThrottledChannelReaper-Fetch]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-03 06:07:16,445] INFO [ThrottledChannelReaper-Fetch]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-03 06:07:16,445] INFO [ThrottledChannelReaper-Fetch]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-03 06:07:16,446] INFO [ThrottledChannelReaper-Produce]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-03 06:07:17,450] INFO [ThrottledChannelReaper-Produce]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-03 06:07:17,451] INFO [ThrottledChannelReaper-Produce]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-03 06:07:17,451] INFO [ThrottledChannelReaper-Request]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-03 06:07:18,455] INFO [ThrottledChannelReaper-Request]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-03 06:07:18,455] INFO [ThrottledChannelReaper-Request]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-06-03 06:07:18,463] INFO [SocketServer brokerId=0] Shutting down socket server (kafka.network.SocketServer)
+[2019-06-03 06:07:18,522] INFO [SocketServer brokerId=0] Shutdown completed (kafka.network.SocketServer)
+[2019-06-03 06:07:18,526] INFO [KafkaServer id=0] shut down completed (kafka.server.KafkaServer)
+[2019-06-03 06:07:18,527] ERROR Exiting Kafka. (kafka.server.KafkaServerStartable)
+[2019-06-03 06:07:18,528] INFO [KafkaServer id=0] shutting down (kafka.server.KafkaServer)
