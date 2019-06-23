@@ -1,0 +1,3 @@
+[2019-06-22 15:19:44,086] INFO [GroupCoordinator 0]: Member consumer-1-8e492abc-828b-4a8c-b48e-833c72cec8bb in group jsa-group has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2019-06-22 15:19:44,091] INFO [GroupCoordinator 0]: Preparing to rebalance group jsa-group in state PreparingRebalance with old generation 35 (__consumer_offsets-34) (reason: removing member consumer-1-8e492abc-828b-4a8c-b48e-833c72cec8bb on heartbeat expiration) (kafka.coordinator.group.GroupCoordinator)
+[2019-06-22 15:19:44,091] INFO [GroupCoordinator 0]: Group jsa-group with generation 36 is now empty (__consumer_offsets-34) (kafka.coordinator.group.GroupCoordinator)
