@@ -60,11 +60,11 @@ mysql> grant all on big_data_db.* to 'bigdata'@'%';
 ```
 
 ## Kullanım
-* ANASAYFA![ANASAYFA](https://github.com/melekpzr/SpringApacheKafka/blob/master/images/Screen%20Shot%202019-06-09%20at%2023.40.02.png)
+* ANASAYFA![ANASAYFA](https://github.com/melekpzr/SpringApacheKafka/blob/master/images/Screen%20Shot%202019-06-23%20at%2020.45.59.png)
 ***
 * LONDRA SERVER'I![LONDRA SERVER'I](https://github.com/melekpzr/SpringApacheKafka/blob/master/images/Screen%20Shot%202019-06-09%20at%2023.41.49.png)
 ***
 * MESAJLAR![MESAJLAR](https://github.com/melekpzr/SpringApacheKafka/blob/master/images/Screen%20Shot%202019-06-17%20at%2023.15.47.png)
 ***
-* DASHBOARD![DASHBOARD](https://github.com/melekpzr/SpringApacheKafka/blob/master/images/Screen%20Shot%202019-06-18%20at%2000.41.16.png)
+* DASHBOARD![DASHBOARD](https://github.com/melekpzr/SpringApacheKafka/blob/master/images/Screen%20Shot%202019-06-23%20at%2020.48.18.png)
 ***
